@@ -1,0 +1,153 @@
+/* Phone */
+@media screen and (max-width: 660px) {
+  .page_container {
+    padding: 10px;
+    max-width: 80em;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  section {
+    margin: 10px 0 10px 0;
+  }
+
+  .stylename::before {
+    content: "Zur Implementierung";
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 0 0;
+  }
+
+  .stylename,
+  .css {
+    font-family: monospace;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 660px) and (max-width: 1150px) {
+  .page_container {
+    display: grid;
+
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 60px 400px 60px 60px;
+
+    grid-template-areas:
+      "w1        headline "
+      "portrait  description"
+      "w2        facts"
+      "w2        navigation";
+  }
+
+  section {
+    background-color: white;
+    padding: 10px;
+    font-size: 22px;
+    line-height: 20px;
+  }
+
+  .page_container h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .headline {
+    background-color: #ebbb5b;
+    padding-top: 19px;
+  }
+
+  .description {
+    padding-top: 12px;
+    line-height: 36px;
+  }
+
+  .facts {
+    padding-top: 61px;
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 30px;
+    padding-top: 12px;
+    line-height: 40px;
+  }
+
+  .stylename {
+    background-color: #ebbb5b;
+    padding-top: 23px;
+  }
+
+  .css {
+    font-size: 18px;
+    line-height: 40px;
+    padding-top: 13px;
+  }
+  .css b {
+    display: block;
+  }
+  .css {
+    font-family: monospace;
+  }
+  .portrait {
+    width: auto;
+    height: auto;
+    background-color: #ebbb5b;
+    background-size: cover;
+  }
+
+  .navigation {
+    line-height: 40px;
+    padding-top: 17px;
+  }
+  .navigation h2 {
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+  .navigation ul {
+    padding-top: 0px;
+  }
+
+  .gelb {
+    display: none;
+  }
+  .rot {
+    display: none;
+  }
+  .w1 {
+    display: none;
+  }
+  .w2 {
+    display: none;
+  }
+
+  .w3 {
+    display: none;
+  }
+  .w4 {
+    display: none;
+  }
+  .w5 {
+    display: none;
+  }
+  .w6 {
+    display: none;
+  }
+  .w7 {
+    display: none;
+  }
+  .w8 {
+    display: none;
+  }
+  .w9 {
+    display: none;
+  }
+  .w10 {
+    display: none;
+  }
+  .w11 {
+    display: none;
+  }
+}
